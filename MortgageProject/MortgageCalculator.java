@@ -51,18 +51,6 @@ public class MortgageCalculator {
 		return age > 18 ? true : false;
 	}
 
-	public static int checkProfession(int totalIncome, String profession) {
-		switch (profession) {
-			case "Developer":
-
-				break;
-
-			default:
-				break;
-		}
-		return 0;
-	}
-
 	public static void main(String[] args) {
 		System.out.println(computeMaxMortgage(1987, 9, 11, 2500, false, 0, "Architect"));
 	}
